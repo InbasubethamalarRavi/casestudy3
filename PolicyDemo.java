@@ -43,7 +43,7 @@ public class PolicyDemo {
 				 {
 					 String[] z =ply.split("  ");
 					 policy m=new policy(x[0], x[1] ,x[2], x[3], x[4], x[5]);
-					 replaceAll(","," ");
+					 replaceAll("[^A-Z]"," ");
 					 list1.add(m);
 					 ply=s.readLine();
 					 
